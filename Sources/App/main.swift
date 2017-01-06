@@ -3,7 +3,10 @@ import VaporMongo
 
 let drop = Droplet()
 
-try drop.addProvider(VaporMongo.Provider.self)
+//try drop.addProvider(VaporMongo.Provider.self)
+
+let mongo = try VaporMongo.Provider(database: "mofire-db", user: "hims", password: "test", host: "ds050539.mlab.com", port: 50539)
+drop.addProvider(mongo)
 
 let rc = RestaurantController()
 
