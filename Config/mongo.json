@@ -1,0 +1,7 @@
+{
+    "user": "hims",
+    "password": "test",
+    "database": "mofire-db",
+    "port": "50539",
+    "host": "ds050539.mlab.com"
+}
