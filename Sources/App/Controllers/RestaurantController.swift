@@ -18,7 +18,7 @@ final class RestaurantController{
     }
     
     let gridFS: GridFS = {
-        let server = try! MongoKitten.Server(at: mongo_remoteHost)
+        let server = try! MongoKitten.Server(mongo_remoteUri)
         let db = server["mofire-db"]
         let gfs = try! GridFS(in: db)
         return gfs
