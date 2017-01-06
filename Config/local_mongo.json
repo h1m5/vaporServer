@@ -1,7 +1,7 @@
 {
     "user": "hims",
-    "password": "test",
+    "password": "classic11",
     "database": "mofire-db",
-    "port": "50539",
-    "host": "mongodb://hims:test@ds050539.mlab.com:50539/mofire-db"
+    "port": "27017",
+    "host": "127.0.0.1"
 }
