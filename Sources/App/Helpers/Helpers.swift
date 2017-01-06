@@ -11,7 +11,7 @@ import HTTP
 import MongoKitten
 
 let mongo_localHost = "127.0.0.1"
-let mongo_remoteHost = "mongodb://hims:test@ds050539.mlab.com:50539/mofire-db"
+let mongo_remoteHost = "ds050539.mlab.com"
 
 extension GridFS {
     public func serve(byId id: ObjectId) throws -> Response {
