@@ -1,7 +1,0 @@
-{
-    "user": "hims",
-    "password": "classic11",
-    "database": "mofire-db",
-    "port": "27017",
-    "host": "127.0.0.1"
-}
